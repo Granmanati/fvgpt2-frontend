@@ -92,10 +92,22 @@ function App() {
       </form>
 
       <footer className="footer">
-        <a href="#"><i className="fas fa-shield-alt"></i> Privacidad</a>
-        <span>Fisiovanguardia &copy; 2030</span>
-        <a href="#"><i className="fas fa-question-circle"></i> Ayuda</a>
-      </footer>
+  <button 
+    type="button" 
+    className="footer-link" 
+    onClick={() => alert('Página de privacidad en construcción')}
+  >
+    <i className="fas fa-shield-alt"></i> Privacidad
+  </button>
+  <span>Fisiovanguardia &copy; 2030</span>
+  <button 
+    type="button" 
+    className="footer-link" 
+    onClick={() => alert('Página de ayuda en construcción')}
+  >
+    <i className="fas fa-question-circle"></i> Ayuda
+  </button>
+</footer>
     </div>
   );
 }
